@@ -9,49 +9,47 @@
     --color-btn-danger-text: black;
     --color-btn-danger-text-dark: black;
   }
-
-.btn{
+  
+  .btn {
     border: 1px solid var(--color-btn-border);
-    border-radius: 10% ;
+    border-radius: .5rem;
     padding: .5rem 1rem;
     font-size: 1.2rem;
-    font-family: 'Poppins';
+    font-family: 'Gotham Rounded';
     cursor: pointer;
     text-decoration: none;
     text-align: center;
-}
-
-.buttonRow{
+  }
+  
+  .btn-row {
     display: flex;
     align-items: flex-start;
-}
-
-.buttonRow > *{
+  }
+  
+  .btn-row > * {
     margin-left: 1rem;
-}
-
-.buttonRow > *:first-child{
+  }
+  
+  .btn-row > *:first-child {
     margin-left: 0;
-}
-
-
-
-.btnPrimary{
+  }
+  
+  .btn-primary {
     color: var(--color-btn-primary-text);
     background-color: var(--color-btn-primary-background);
-}
-
-.btnPrimary:hover{
+  }
+  
+  .btn-primary:hover {
     color: var(--color-btn-primary-text-dark);
     background-color: var(--color-btn-primary-background-dark);
-}
-
-.btnDanger{
+  }
+  
+  .btn-danger {
     color: var(--color-btn-danger-text);
     background-color: var(--color-btn-danger-background);
-}
-
-.btnDanger:hover{
+  }
+  
+  .btn-danger:hover {
     color: var(--color-btn-danger-text-dark);
     background-color: var(--color-btn-danger-background-dark);
-}
+  }

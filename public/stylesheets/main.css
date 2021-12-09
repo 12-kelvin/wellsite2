@@ -6,35 +6,35 @@
 @import 'shared/author.css';
 @import 'shared/books.css';
 
-:root{
-    font-family: 'Carter One';
+:root {
+    font-family: 'Gotham Rounded';
     font-size: 20px;
     color: var(--color-text-light);
-}
-
-*, *::before, *::after {
+  }
+  
+  *, *::before, *::after {
     box-sizing: border-box;
   }
-
-body{
+  
+  body {
     background: linear-gradient(to right, var(--color-background-dark), var(--color-background-light));
-}
-
-.container{
+  }
+  
+  .container {
     max-width: 1200px;
     margin: auto;
     margin-bottom: 3rem;
-}
-
-.innerContainer{
-    margin-top: 0 2rem;
-}
-
-.pageHeader{
+  }
+  
+  .inner-container {
+    margin: 0 2rem;
+  }
+  
+  .page-header {
     font-size: 2rem;
     font-weight: 500;
-}
-
-.error-message{
-    color: hsl (var(--color-danger-hue), 100%, 50%);
-}
+  }
+  
+  .error-message {
+    color: hsl(var(--color-danger-hue), 100%, 50%);
+  }
