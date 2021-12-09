@@ -1,6 +1,10 @@
 <h2 class= "pageHeader">New Book</h2>
 <form action="/books" method="POST">
   <%- include('_formfields') %>
-  <a href="/books">Cancel</a>
-  <button type="submit">Create</button>
+
+  <div class = "form-row form-row-end buttonRow">
+    <a class ="btn btnDanger" href="/books">Cancel</a>
+    <button class ="btn .btnPrimary" type="submit">Create</button>
+  </div>
+  
 </form>
